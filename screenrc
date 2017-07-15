@@ -1,0 +1,13 @@
+hardstatus alwayslastline '%{=b}%{b}%-w%{.BW}%10>[%n %t]%{-}%+w%<'
+startup_message off
+altscreen on
+msgwait 1
+vbell off
+defscrollback 100000
+
+# Alt-<left> and Alt-<right> move left and right
+bindkey ^[[1;3D prev
+bindkey ^[[1;3C next
+
+# Mouse scrolling
+termcapinfo xterm* ti@:te@

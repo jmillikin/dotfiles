@@ -1,0 +1,16 @@
+[user]
+	signingkey = 0x79F3A624890F889A
+	name = John Millikin
+	email = john@john-millikin.com
+[color]
+	ui = true
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[push]
+	default = simple
+[remote "origin"]
+	push = HEAD
+[core]
+	excludesfile = ~/.gitignore_global
+	quotepath = false
